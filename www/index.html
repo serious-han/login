@@ -46,8 +46,8 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
-	setTimeout(function(){location.href="http://vision.dothome.co.kr/login";},50);
-	
+	// setTimeout(function(){location.href="http://vision.dothome.co.kr/login";},50);
+	var ref = cordova.InAppBrowser.open("http://vision.dothome.co.kr/login", '_blank', 'location=no');
     </script>
 </body>
 
